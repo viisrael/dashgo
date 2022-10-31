@@ -1,6 +1,6 @@
 
 export default function Home() {
   return (
-    <h1>Dash Go</h1>
+    <h1>DashGo</h1>
   )
 }

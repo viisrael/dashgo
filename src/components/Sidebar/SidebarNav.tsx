@@ -9,12 +9,12 @@ export function SidebarNav(){
     <Stack spacing="12" align="flex-start">
         
         <NavSection title="GERAL">
-          <NavLink icon={RiDashboardLine}>
+          <NavLink href="/dashboard" icon={RiDashboardLine}>
             {/* everything inside here is a "children" to NavLink */}
             Dashboard
           </NavLink>
 
-          <NavLink icon={RiContactsLine}>
+          <NavLink href="/users" icon={RiContactsLine}>
             {/* everything inside here is a "children" to NavLink */}
             Usuários
           </NavLink>
@@ -22,12 +22,12 @@ export function SidebarNav(){
 
 
         <NavSection title="AUTOMAÇÃO">
-          <NavLink icon={RiInputMethodLine}>
+          <NavLink href="/forms" icon={RiInputMethodLine}>
             {/* everything inside here is a "children" to NavLink */}
             Formulários
           </NavLink>
 
-          <NavLink icon={RiGitMergeLine}>
+          <NavLink href="/automation" icon={RiGitMergeLine}>
             {/* everything inside here is a "children" to NavLink */}
             Automação
           </NavLink>
